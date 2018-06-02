@@ -80,7 +80,7 @@ public class SerialRxTx implements SerialPortEventListener {
 
         return status;
     }
-
+    
     //Método que envia dados pela serial.
     public void sendData(String data) {
         try {
@@ -118,8 +118,8 @@ public class SerialRxTx implements SerialPortEventListener {
 
                     if (input.ready()) {
                         protocolo.setLeituraComando(input.readLine());
-
-                        System.out.println("temperatura: " + protocolo.getLeituraComando());
+                        
+                        System.out.println("temperatura: " + Float.valueOf(protocolo.getLeituraComando()).floatValue());
                     }
                     break;
                 default:
@@ -131,7 +131,7 @@ public class SerialRxTx implements SerialPortEventListener {
         }
 
     }
-
+    
     public static int getDATA_RATE() {
         return DATA_RATE;
     }
