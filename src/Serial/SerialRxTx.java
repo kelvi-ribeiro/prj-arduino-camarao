@@ -119,7 +119,7 @@ public class SerialRxTx implements SerialPortEventListener {
                     if (input.ready()) {
                         protocolo.setLeituraComando(input.readLine());
 
-                        System.out.println("Temperatura: " + protocolo.getLeituraComando());
+                        System.out.println("temperatura: " + protocolo.getLeituraComando());
                     }
                     break;
                 default:
