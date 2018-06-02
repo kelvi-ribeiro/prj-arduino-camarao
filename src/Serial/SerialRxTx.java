@@ -44,7 +44,7 @@ public class SerialRxTx implements SerialPortEventListener {
 
 	private String serialPortName = "COM3";
 
-	private static final String API_TEMPERATURA_URL = " https://330f6520.ngrok.io/temperaturas";
+	private static final String API_TEMPERATURA_URL = "https://330f6520.ngrok.io/temperaturas";
 
 	public boolean iniciaSerial() {
 		boolean status = false;
