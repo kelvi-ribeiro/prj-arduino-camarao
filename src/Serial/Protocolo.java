@@ -11,9 +11,9 @@ package Serial;
  */
 public class Protocolo {
 
-    private String tipoDado;
+   // private String tipoDado;
     private String temperatura;
-    private String umidade;
+    //private String umidade;
     /*private String distancia;
     private String luminosidade;
     private String led;
@@ -23,27 +23,27 @@ public class Protocolo {
     private String leituraComando;
 
     private void interpretaComando() {
-        String aux[] = leituraComando.split(",");
-        if (aux.length == 3) {
-
-            tipoDado = aux[0];
-            temperatura = aux[1];
-            umidade = aux[2];
+        //String aux[] = leituraComando.split(",");
+        //if (aux.length == 3) {
+            String temperatura = leituraComando;
+            //tipoDado = aux[0];
+           // temperatura = aux[1];
+            //umidade = aux[2];
             /*distancia = aux[3];
             luminosidade = aux[4];
             led = aux[5];
             botao = aux[6];
             potenciometro = aux[7];*/
-        }
+        //}
     }
 
-    public String getTipoDado() {
+   /* public String getTipoDado() {
         return tipoDado;
     }
 
     public void setTipoDado(String tipoDado) {
         this.tipoDado = tipoDado;
-    }
+    }*/
 
     public String getTemperatura() {
         return temperatura;
@@ -53,13 +53,13 @@ public class Protocolo {
         this.temperatura = temperatura;
     }
 
-    public String getUmidade() {
+    /*public String getUmidade() {
         return umidade;
     }
 
     public void setUmidade(String umidade) {
         this.umidade = umidade;
-    }
+    }*/
 
     /*public String getDistancia() {
         return distancia;
