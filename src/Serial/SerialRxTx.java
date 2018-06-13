@@ -44,7 +44,7 @@ public class SerialRxTx implements SerialPortEventListener {
 
 	private String serialPortName = "COM3";
 
-	private static final String API_TEMPERATURA_URL = "https://330f6520.ngrok.io/temperaturas";
+	private static final String API_TEMPERATURA_URL = "https://c0476e16.ngrok.io/temperaturas";
 
 	public boolean iniciaSerial() {
 		boolean status = false;
@@ -76,7 +76,7 @@ public class SerialRxTx implements SerialPortEventListener {
 			status = true;
 
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(10000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 
@@ -127,9 +127,10 @@ public class SerialRxTx implements SerialPortEventListener {
 
 				if (input.ready()) {
 					protocolo.setLeituraComando(input.readLine());
-
-					this.send(Double.valueOf(protocolo.getLeituraComando()).doubleValue());
-					//System.out.println("temperatura: " + Double.valueOf(protocolo.getLeituraComando()).doubleValue());
+					if(protocolo.getLeituraComando() != null) {
+						this.send(Double.valueOf(protocolo.getLeituraComando()).doubleValue());
+						//System.out.println("temperatura: " + Double.valueOf(protocolo.getLeituraComando()).doubleValue());
+					}
 				}
 				break;
 			default:
