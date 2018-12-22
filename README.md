@@ -1,6 +1,6 @@
 ## prj-arduino-camarao
 
- Nesse projeto, o Arduino manda informações de temperatura para uma [API JAVA]() que é responsável de salvar essa medição.
+ Nesse projeto, o Arduino manda informações de temperatura para uma [API JAVA](https://github.com/kelvi-ribeiro/api-camarao) que é responsável de salvar essa medição.
 
 ## Autores
 
