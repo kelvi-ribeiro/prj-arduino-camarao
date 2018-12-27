@@ -24,6 +24,7 @@ Aplicativo do camarão foi um desafio da disciplina de Tópicos de Programação
   - Disparo de E-mails e Notificação Via Push Notification do Firebase ao envio de avisos
   - Tela de Ajuda com tradução para mais dois idiomas, além do português
   - Possibilidade de envio de fotos do usuário, através da camera e galeria
+  - Aplicativo dinâmico, algumas funcionalidades são habilitadas apenas para funcionário Administradores
 
 ### Link dos Projetos
 - [API REST JAVA](https://github.com/kelvi-ribeiro/api-camarao)
@@ -56,37 +57,41 @@ e clicar no ícone de celular. Lembrando que a funcionalidade de Localizar não 
 
 ## Imagens do aplicativo:
 
-##### Tela de Login:
+##### Interface de Login:
 
-![tela-login](https://i.imgur.com/mfoS5JK.png)
+![interface-login](https://i.imgur.com/mfoS5JK.png)
 
-#####  Tela Principal de listagem de medições:
+#####  Interface Principal de listagem de medições:
 
-##### ![tela-principal](https://i.imgur.com/9rFE22W.png[/img)
+![interface-principal](https://i.imgur.com/9rFE22W.png)
+
+#####  Interface de Gráfico sobre as medições:
+
+![interface-grafico](https://i.imgur.com/4cTIvya.png)
 
 ##### Side Menu(Menu Lateral):
 
-![side-menu](https://i.imgur.com/2YvQNdx.png[/img)
+![side-menu](https://i.imgur.com/2YvQNdx.png)
 
-##### Tela de relatório completo:
+##### Interface de relatório completo:
 
-![tela-relatorio](https://i.imgur.com/RolNt8x.png)
+![interface-relatorio](https://i.imgur.com/RolNt8x.png)
 
-##### Tela de Listagem de avisos:
+##### Interface de Listagem de avisos:
 
-![tela-avisos](https://i.imgur.com/3I3VPYf.png)
+![interface-avisos](https://i.imgur.com/3I3VPYf.png)
 
-##### Tela de detalhes do aviso:
+##### Interface de detalhes do aviso:
 
 ![detalhes-aviso](https://i.imgur.com/Y13sOpl.png)
 
-##### Tela de Gerenciamento de tanques:
+##### Interface de Gerenciamento de tanques:
 
 ![gerenciamento-tanque](https://i.imgur.com/M7NIRGe.png)
 
-##### Tela de ajuda:
+##### Interface de ajuda:
 
-![tela-ajuda](https://i.imgur.com/W0Hle1P.png)
+![interface-ajuda](https://i.imgur.com/W0Hle1P.png)
 
 
 ### Todos (Funcionalidades Futuras)
