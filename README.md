@@ -1,6 +1,6 @@
 # Aplicativo do Camarão (Protótipo)
 
-Aplicativo do camarão foi um desafio da disciplina de Tópicos de Programação orientado pelo professor [Thiago Souza](https://www.facebook.com/thiago.silvadesouza.33) na Instituição [Unigranrio](http://www.unigranrio.com.br). Essa aplicação tem a responsabilidade de ajudar os funcionários a gerenciar os tanques de camarão, os camarões são frágeis e a água precisa estar devidamente tratada para o crescimento saudável dos mesmos, sendo assim, algumas propriedades da água precisam estar em constante monitoramento, as  principais propriedades são: Amônia Total, Nitrato, Nitrito, Oxigênio Dissolvido, PH, Salinidade, Temperatura e Transparência. Para isso, foi necessário desenvolver um projeto Com  [Arduino](https://www.google.com/search?q=arduino&oq=Arduin&aqs=chrome.0.0j69i60l3j69i57j0.2365j0j7&sourceid=chrome&ie=UTF-8) que de alguma forma pudesse comunicar com os dispositivos móveis dos funcionários. Tal arquitetura foi pensada para essa solução: 
+Aplicativo do camarão foi um desafio da disciplina de Tópicos de Programação orientado pelo professor [Thiago Souza](https://br.linkedin.com/in/thiagosilvadesouza) na Instituição [Unigranrio](http://www.unigranrio.com.br). Essa aplicação tem a responsabilidade de ajudar os funcionários a gerenciar os tanques de camarão, os camarões são frágeis e a água precisa estar devidamente tratada para o crescimento saudável dos mesmos, sendo assim, algumas propriedades da água precisam estar em constante monitoramento, as  principais propriedades são: Amônia Total, Nitrato, Nitrito, Oxigênio Dissolvido, PH, Salinidade, Temperatura e Transparência. Para isso, foi necessário desenvolver um projeto Com  [Arduino](https://www.google.com/search?q=arduino&oq=Arduin&aqs=chrome.0.0j69i60l3j69i57j0.2365j0j7&sourceid=chrome&ie=UTF-8) que de alguma forma pudesse comunicar com os dispositivos móveis dos funcionários, Vocês podem acessar o [Vídeo](https://www.youtube.com/watch?v=4zkQStHMYN0) ensinando como configurar e startar o projeto. Vocês podem pular direto para a parte prática que começa em 04:08. Tal arquitetura foi pensada para essa solução: 
 
 ![arranjo](https://i.imgur.com/Oah6LgX.jpg)
 
@@ -10,7 +10,7 @@ Aplicativo do camarão foi um desafio da disciplina de Tópicos de Programação
   - Node
   - API REST JAVA
   - Arduino
-  - Sensor de temperatura
+  - Sensor de temperatura DHT11
   - SGBD MySQL
 
 # Funcionalidades
@@ -97,8 +97,16 @@ e clicar no ícone de celular. Lembrando que a funcionalidade de Localizar não 
 ### Todos (Funcionalidades Futuras)
 
  - Adicionar mais sensores, nesse protótipo, a única propriedade testada foi a de Temperatura
- - Implementar um Dashboard para o Gerente dos funcionários, contendo as principais informações das propriedades de seus funcionários, pode ser implantado um BI para isso.
+ - Implementar um Dashboard para o Gerente dos funcionários, contendo as principais informações das propriedades s, pode ser implantado um BI para isso.
  - Testar funcionalidades
+ 
+### Participantes do Projeto
+Kelvi Ribeiro - Criou a API, Projeto Ionic e ajudou na integração da API com o Projeto Arduino. [Repositório GitHub](https://github.com/kelvi-ribeiro)
+
+Felipe Lamim - Criou o Projeto Arduino. [Repositório GitHub](https://github.com/feliperj97)
+
+Wagner Fragoso - Apresentou a aplicação e desenhou a arquitetura no Photoshop. [Linkedin](https://www.linkedin.com/in/wagner-fragoso-do-nascimento-9451a3b8)
+
 
 License
 ----
